@@ -1,0 +1,50 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+#container {
+    background: aquamarine;
+    height: 961px;
+    width: 961px;
+    margin: 50px;
+}
+
+.box {
+    background-color: chocolate;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.fancy-button {
+    padding: 30px 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: antiquewhite;
+    background-color: chocolate;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.fancy-button:hover {
+    background-color: aquamarine;
+    transform: scale(1.05);
+    color: darkslateblue;
+}
+
+.fancy-button:active {
+    background-color: #2471a3;
+    transform: scale(0.95);
+}
